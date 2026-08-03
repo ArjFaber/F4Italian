@@ -28,3 +28,6 @@ jobs:
           
       - name: Run scraper
         run: python script.py
+
+      - name: Run wiki scraper
+        run: python script_wiki.py
